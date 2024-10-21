@@ -2,7 +2,7 @@
     <div class="container">
       <div class="header">
         <div class="logo">
-          <img src="toi.jpg" alt="Logo">
+          <img src="@/assets/img/toi.jpg" alt="Logo">
         </div>
         <div class="title">
           <h1>Kabeng Toi</h1>
@@ -10,7 +10,7 @@
           <p>catatan kepala bengkel toi SMKN 4 Tasikmalaya</p>
         </div>
         <div class="right">
-          <img src="logo-right.png" alt="Logo Right">
+          <img src="@/assets/img/smkn4.jpg" alt="Logo Right">
         </div>
       </div>
       <div class="content">
@@ -50,6 +50,60 @@
     }
   };
   </script>
-  
- 
- 
+  <style scoped>
+  body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.logo-text {
+  margin-left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+  </style>
